@@ -6,9 +6,9 @@ const Hero3D = lazy(() => import("./Hero3D"));
 // Vidéos : client/public/hero/1.mp4, 2.mp4, 3.mp4 (horizontales ou verticales, les deux marchent)
 // three: true => affiche la bague 3D par-dessus la vidéo
 const SLIDES = [
-  { video: "/hero/1.mp4", img: "/hero/1.jpg", bg: "linear-gradient(120deg,#14110d,#4a381d)", eyebrow: "Nouvelle collection", title: "Accessoires", cta: "Voir la collection", cat: "bijoux-accessoires", three: false },
+  { video: "/hero/1.mp4", img: "/hero/1.png", bg: "linear-gradient(120deg,#14110d,#4a381d)", eyebrow: "Nouvelle collection", title: "Accessoires", cta: "Voir la collection", cat: "bijoux-accessoires", three: false },
   { video: "/hero/2.mp4", img: "/hero/2.jpg", bg: "linear-gradient(120deg,#e3c3a8,#aebfd9)", eyebrow: "Maroquinerie", title: "Sacs ", cta: "Voir les sacs", cat: "sacs", three: false },
-  { video: "/hero/3.mp4", img: "/hero/3.jpg", bg: "linear-gradient(120deg,#25221d,#7a6644)", eyebrow: "Douceur et élégance au quotidien", title: "Article en laine", cta: "Découvrir", cat: "laine", three: false },
+  { video: "/hero/3.mp4", img: "/hero/3.png", bg: "linear-gradient(120deg,#25221d,#7a6644)", eyebrow: "Douceur et élégance au quotidien", title: "Article en laine", cta: "Découvrir", cat: "laine", three: false },
 ];
 
 const fill = { position: "absolute", inset: 0, width: "100%", height: "100%" };
